@@ -42,3 +42,6 @@ SSH
 ssh-keygen -t ed25519 -C tauanyc.farias@gmail.com
 
 para clonar repositório git clone e copiar chave ssh ou http
+
+Para incluir novo arquivo criado em repositório local, após commitar utilizar o comando
+"git push origin main"
