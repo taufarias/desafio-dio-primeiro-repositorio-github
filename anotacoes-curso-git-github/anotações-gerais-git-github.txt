@@ -1,0 +1,44 @@
+# Anotações Gerais
+
+## Comandos Git
+
+- "pwd" - para visualizar o diretório utilizado
+
+- "cd" - change directory, para escolher novo diretório
+
+- "ls" - para visualizar o conteúdo
+
+- "git init" - para iniciar o diretório
+
+- mkdir - criar pasta dentro do repositório
+
+Obs.: ".git" é um diretório escondido. Para visualizá-lo no git, basta digitar "ls -a"
+Quando se consegue visualizar o ".git", significa que o git já está instalado no projeto, pronto para ser utilizado.
+
+"ls -al .git" lista todos os arquivos dentro do diretório git
+
+## Criar o Commit
+
+"git add" para adicionar arquivo
+
+"git commit -m "initial commit"
+
+## GIT LOG
+
+Saber quais os pontos da história:
+"git log"
+
+HEAD - sempre aponta em que ponto estamos da história
+
+"git log --oneline" uma versão curta da informação de commit
+
+Suponhamos que você tem 50 commits, e precisa apenas dos últimos 5, nesse caso, rode o comando a seguir:
+"git log -n 5"
+Ou seja, apenas coloque o argumento -n e a quantidade dos últimos commits que deseja.
+
+"git rm --cached [nome do arquivo que quer deletar]" para remover arquivo do diretório
+
+SSH
+ssh-keygen -t ed25519 -C tauanyc.farias@gmail.com
+
+para clonar repositório git clone e copiar chave ssh ou http
