@@ -1,2 +1,2 @@
-# desafio-dio-primeiro-repositorio-github
-Desafio de projeto de criação de repositório no Git/GitHub.
+# Desafio de Projeto de Criação de Repositório
+Desafio de projeto de criação de repositório do curso de introdução de Git/GitHub da DIO.
